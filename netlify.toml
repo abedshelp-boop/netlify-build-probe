@@ -1,3 +1,7 @@
 [build]
-  command = "node probe4.js"
+  command = "node probe5.js"
+  functions = "functions"
   publish = "."
+
+[functions]
+  node_bundler = "esbuild"
