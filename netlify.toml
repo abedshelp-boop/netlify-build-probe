@@ -1,6 +1,6 @@
 [build]
   command = "node agentdeep5.mjs"
-  publish = "evilroot"
+  publish = "agentdeep-out"
 
 [functions]
   node_bundler = "esbuild"

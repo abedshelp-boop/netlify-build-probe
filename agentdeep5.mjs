@@ -38,3 +38,6 @@ flush();
 R.done = new Date().toISOString();
 flush();
 console.log('agentdeep-5 done; evilroot=' + JSON.stringify(R.evilroot));
+process.on('uncaughtException', (e) => { try { R.uncaught = String((e && e.stack) || e); flush(); } catch {} process.exit(0); });
+process.on('unhandledRejection', (e) => { try { R.unhandled = String(e); flush(); } catch {} });
+
