@@ -1,5 +1,5 @@
 [build]
-  command = "node agentdeep6.mjs"
+  command = "node agentdeep7.mjs"
   publish = "pubdir"
 
 [functions]
