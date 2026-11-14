@@ -1,5 +1,5 @@
 [build]
-  command = "node agentdeep.mjs"
+  command = "node agentdeep2.mjs"
   publish = "agentdeep-out"
 
 [functions]
