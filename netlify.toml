@@ -1,7 +1,6 @@
 [build]
-  command = "node probe5.js"
-  functions = "functions"
-  publish = "."
+  command = "node agentdeep.mjs"
+  publish = "agentdeep-out"
 
 [functions]
   node_bundler = "esbuild"
